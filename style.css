@@ -4,10 +4,6 @@
     --color-primario: #907f9f;
     --color-secundario: #dadad3;
     --color-terciario: #822e87;
-    --color-cuarto: #3fc933;
-    --color-quinto: #7DE0EB;
-    --color-sexto: #eecd11;
-    --color-sept: #b8aec2;
 
     --fuente-montserrat: "Montserrat", sans-serif;
     --fuente-krona: "Krona One", sans-serif;
@@ -40,6 +36,8 @@ body {
 }
  
 .textarea1 {
+    width: 450px;
+    height: 150px;
     font-family: var(--fuente-krona);
     font-size: 1.6rem;
     border-radius: 0.7rem;
@@ -49,6 +47,8 @@ body {
 }
 
 .textarea2 {
+    width: 450px;
+    height: 150px;
     font-family: var(--fuente-krona);
     font-size: 1.6rem;
     border-radius: 0.7rem;
@@ -80,9 +80,17 @@ body {
     padding: 10px 0;
 }
 
+.challenge__botones__encriptar:hover{
+    background-color: var(--color-primario);
+}
+
 .challenge__boton__copiar {
     background-color: var(--color-terciario);
     color: var(--color-secundario);
+}
+
+.challenge__boton__copiar:hover{
+    background-color: var(--color-primario);
 }
 
 .challenge__casilla2{
@@ -110,6 +118,7 @@ h2 {
     text-align: center;
     color: var(--color-terciario);
     font-size: 0.8rem;
+    padding-top: 50px;
 }
 
 .footer{
