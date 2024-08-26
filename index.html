@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Encriptador/desencriptador</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="header">
+            <img src="Logo.png" alt="Logo Allura">
+            <h1 class="titulo">Bienvenido al Encriptador/Desencriptador de texto</h1>
+        </header>
+        <main class="challenge">
+            <section class="challenge__casilla1">
+                <textarea class="textarea1" id="inputTexto" placeholder="Ingrese el texto aqui"></textarea>
+                <h2><img src="icono-importante.png" alt="icono de signo de exclamacion">Solo letras minusculas y sin acentos</h2>
+                <div class="challenge__botones">
+                    <button class="challenge__botones__encriptar" onclick="encriptar()">Encriptar</button>
+                    <button class="challenge__botones__encriptar" onclick="desencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="challenge__casilla2">
+                <img class="challenge__imagen" src="Muñeco.png" width="336" height="305" alt="imagen de un muñeco">
+                <textarea class="textarea2" id="resultado" placeholder="Ningun mensaje fue encontrado, ingresa el texto que desees encriptar o desencriptar." readonly ></textarea>        
+                <div>
+                    <button class="challenge__boton__copiar" onclick="copiarTexto()">Copiar al Portapapeles</button>
+                </div>
+            </section> 
+        </main>
+    <footer class="footer">
+        <p>Desarrollado por Lali Scott</p>
+    </footer>
+    </body>
+    <script src="app.js"></script>
+</html>

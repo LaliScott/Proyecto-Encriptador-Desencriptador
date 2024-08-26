@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --color-primario: #907f9f;
+    --color-secundario: #dadad3;
+    --color-terciario: #822e87;
+    --color-cuarto: #3fc933;
+    --color-quinto: #7DE0EB;
+    --color-sexto: #eecd11;
+    --color-sept: #b8aec2;
+
+    --fuente-montserrat: "Montserrat", sans-serif;
+    --fuente-krona: "Krona One", sans-serif;
+    --fuente-roboto: "Roboto", sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    /* height: 100vh */
+    box-sizing: border-box;
+    background-color: var(--color-primario);
+    color: var(--color-secundario);
+    
+} 
+
+.header{
+    padding: 2% 0% 0% 2%;
+    display: flex;
+
+}
+
+ .challenge{
+    padding: 5% 5% 5% 5%;
+    display: flex;
+    flex-direction: row;
+}
+ 
+.textarea1 {
+    font-family: var(--fuente-krona);
+    font-size: 1.6rem;
+    border-radius: 0.7rem;
+    border-width: 0.2rem;
+    border-color: var(--color-secundario);
+    margin-top: 3rem;
+}
+
+.textarea2 {
+    font-family: var(--fuente-krona);
+    font-size: 1.6rem;
+    border-radius: 0.7rem;
+    border-width: 0.2rem;
+    border-color: var(--color-secundario);
+    margin-top: 3rem;
+}
+
+ .challenge__casilla1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family: var(--fuente-montserrat);
+}
+
+.challenge__botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 24px;
+}
+
+.challenge__botones__encriptar{
+    width: 328px;
+    background-color: var(--color-terciario);
+    color: var(--color-secundario);
+    padding: 10px 0;
+}
+
+.challenge__boton__copiar {
+    background-color: var(--color-terciario);
+    color: var(--color-secundario);
+}
+
+.challenge__casilla2{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-family: var(--fuente-montserrat);
+}
+
+.challenge__imagen {
+    display: flex;
+    align-content: center;
+}
+
+.titulo {
+    font-size: 2rem;
+    font-family: var(--fuente-montserrat);
+    
+}
+
+h2 {
+    display: flex;
+    text-align: center;
+    color: var(--color-terciario);
+    font-size: 0.8rem;
+}
+
+.footer{
+    color: var(--color-terciario);
+    text-align: center;
+    font-family: var(--fuente-montserrat);
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+@media (max-width: 800px){
+
+
+    .challenge{
+        flex-direction: column;
+        padding: 5%;
+    }
+
+    .challenge__casilla1{
+        width: auto;
+    }
+
+    .challenge__casilla2{
+        width: auto;
+    }
+  
+
+}
