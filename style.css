@@ -33,28 +33,27 @@ body {
     padding: 5% 5% 5% 5%;
     display: flex;
     flex-direction: row;
+    gap: 50px;
 }
  
 .textarea1 {
-    width: 450px;
+    width: 100%;
     height: 150px;
     font-family: var(--fuente-krona);
     font-size: 1.6rem;
     border-radius: 0.7rem;
     border-width: 0.2rem;
     border-color: var(--color-secundario);
-    margin-top: 3rem;
 }
 
 .textarea2 {
-    width: 450px;
+    width: 100%;
     height: 150px;
     font-family: var(--fuente-krona);
     font-size: 1.6rem;
     border-radius: 0.7rem;
     border-width: 0.2rem;
     border-color: var(--color-secundario);
-    margin-top: 3rem;
 }
 
  .challenge__casilla1{
